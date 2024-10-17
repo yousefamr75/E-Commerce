@@ -1,0 +1,74 @@
+﻿@using E_Commerce.Models;
+@using Models.Models
+@model List<products>
+
+<div class="container">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary">product List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="product" asp-action="Upsert" class="btn btn-primary"> <i class="bi bi-plus-circle"></i> Create New product </a>
+        </div>
+
+    </div>
+
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Title
+                </th>
+                <th>
+                    ISBN
+                </th>
+                <th>
+                    Prise
+
+                </th>
+                <th>
+                    Author
+                </th>
+                <th>
+                    CategoryId
+                </th>
+                <th>
+                    Image
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td>@obj.title</td>
+                    <td>@obj.ISBN</td>
+                    <td>@obj.ListPrise</td>
+                    <td>@obj.Author</td>
+                    <td>@obj.CategoryId</td>
+                    <td>
+                        <img src="@obj.ImageUrl" width="150" height="auto" />
+                    </td>
+
+                    <td>
+                        <div class="w-75 btn-group role="group">
+                            <a asp-controller="product" asp-action="Upsert" asp-route-id="@obj.Id" class="btn btn-primary mx-2">
+                                <i class="bi bi-pencil-square"></i>
+                                Edite
+                            </a>
+                            <a asp-controller="product" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-2">
+                                <i class="bi bi-trash3-fill"></i>
+                                Delete
+                            </a>
+
+                        </div>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+    <img src=""
+</div>

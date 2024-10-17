@@ -1,0 +1,57 @@
+﻿@using E_Commerce.Models;
+@using Models.Models
+@model products
+<form method="post">
+    <div class="border p-4 mt-4 ">
+        <div class="row pb-2">
+
+            <h2 class="text-primary">Create product</h2>
+            <hr />
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="title" class="p-0"></label>
+            <input asp-for="title" disabled class="form-control" />
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="description" class="p-0"></label>
+            <input asp-for="description" disabled class="form-control" />
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="ISBN" class="p-0"></label>
+            <input asp-for="ISBN" disabled class="form-control" />
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Author" class="p-0"></label>
+            <input asp-for="Author" disabled class="form-control" />
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="ListPrise" class="p-0"></label>
+            <input asp-for="ListPrise" disabled class="form-control" />
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Prise" class="p-0"></label>
+            <input asp-for="Prise" disabled class="form-control" />
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Prise50" class="p-0"></label>
+            <input asp-for="Prise50" disabled class="form-control" />
+        </div>
+        <div class="mb-3 row p-1">
+            <label asp-for="Prise100" class="p-0"></label>
+            <input asp-for="Prise100" disabled class="form-control" />
+        </div>
+
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <button type="submit" class="btn btn-primary form-control ">Delete</button>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a asp-controller="product" asp-action="Index" class="btn btn-secondary border form-control">
+                    Backe To list
+
+                </a>
+            </div>
+        </div>
+    </div>
+</form>
