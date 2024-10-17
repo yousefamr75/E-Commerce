@@ -1,0 +1,14 @@
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\bin\Debug\net8.0\Unitily.deps.json
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\bin\Debug\net8.0\Unitily.runtimeconfig.json
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\bin\Debug\net8.0\Unitily.dll
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\bin\Debug\net8.0\Unitily.pdb
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\obj\Debug\net8.0\Unitily.csproj.AssemblyReference.cache
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\obj\Debug\net8.0\Unitily.GeneratedMSBuildEditorConfig.editorconfig
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\obj\Debug\net8.0\Unitily.AssemblyInfoInputs.cache
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\obj\Debug\net8.0\Unitily.AssemblyInfo.cs
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\obj\Debug\net8.0\Unitily.csproj.CoreCompileInputs.cache
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\obj\Debug\net8.0\Unitily.dll
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\obj\Debug\net8.0\refint\Unitily.dll
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\obj\Debug\net8.0\Unitily.pdb
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\obj\Debug\net8.0\Unitily.genruntimeconfig.cache
+D:\الكورسات\full stack developer(.Net)\back end developer\كورسات Backend\Projects in Cv\E-Commerce\Unitily\obj\Debug\net8.0\ref\Unitily.dll
